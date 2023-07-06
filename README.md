@@ -21,13 +21,13 @@ OBJECTIVES:
 
 COMPONENTS REQUIRED:
 
-EM18 RFID Reader Module
-RFID Cards
-NodeMCU-ESP8266
-16x2 Alphanumeric LCD
-I2C module for LCD
-Breadboard
-Connecting Wires
+1. EM18 RFID Reader Module
+2. RFID Cards
+3. NodeMCU-ESP8266
+4. 16x2 Alphanumeric LCD
+5. I2C module for LCD
+6. Breadboard
+7. Connecting Wires
 
 1. NodeMCU-ESP8266:
    
@@ -43,6 +43,8 @@ NodeMCU firmware is open source and can be easily modified to suit the
 needs of any project. It’s also compatible with the Arduino IDE and other
 popular development platforms, making it an ideal choice for developers of
 all skill levels.
+
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/185a9917-4184-41ee-b529-8b745839828c)
 
 
