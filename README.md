@@ -29,6 +29,7 @@ COMPONENTS REQUIRED:
 6. Breadboard
 7. Connecting Wires
 
+
 1. NodeMCU-ESP8266:
    
 NodeMCU firmware is a powerful platform for IoT applications. It contains all the functionality of the ESP8266, allowing the user to connect to her Wi-Fi
@@ -48,7 +49,7 @@ all skill levels.
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/185a9917-4184-41ee-b529-8b745839828c)
 
 
-3. EM18 Reader Module :-
+2. EM18 Reader Module:
 
 Radio waves are used by Radio frequency Identification (RFID), a wireless
 identification technique, to detect the presence of RFID tags. RFID technology is used to identify the presence of persons, objects, etc., just like a bar
@@ -60,6 +61,7 @@ in many different applications, such as an attendance system that provides
 each person with a unique RFID tag to aid in identifying them and their
 attendance. Many businesses utilise RFID to grant access to their authorised
 staff.
+
 Specifications:
 • EM-18 operating voltage : +4.5V to +5.5V
 • Current : 50mA.
@@ -69,7 +71,10 @@ Specifications:
 • Communicating parameters : 9600bps.
 • 12 digit code reading distance: 10cm, depending on TAG.
 
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/65ba197c-b0b9-4243-af5d-6fb73f9a8f1c)
+
+
 
 3. 16x2 LCD Display with I2C Protocol :
 
@@ -84,48 +89,67 @@ Specifications :
 
 
 
-FUNCTIONAL BLOCK DIAGRAM
+
+FUNCTIONAL BLOCK DIAGRAM:
+
+Firstly , power supply is given to NodeMCU and RFID tag is scanned, then the number of visitors and visitor’s name will be displayed on LCD. Count of visitors and their details such as entry date , time , month will be sent to ThingSpeak. For every RFID based entry a tweet is sent to twitter account.
+
 
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/14b88bee-0298-4e67-8dfd-a3bf0c6fbdcd)
 
 
-Firstly , power supply is given to NodeMCU and RFID tag is scanned, then the number of visitors and visitor’s name will be displayed on LCD. Count of visitors and their details such as entry date , time , month will be sent to ThingSpeak. For every RFID based entry a tweet is sent to twitter account.
 
-FLOW CHART
+FLOW CHART:
+
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/c9f875b2-2a5d-4113-9c1b-763ff675cea9)
 
 
-CIRCUIT CONNECTIONS AND STEPS TO CARRYOUT EXPERIMENTS
+CIRCUIT CONNECTIONS AND STEPS TO CARRYOUT EXPERIMENTS:
+
 • Connections as per shown in the figure.
 • As we scan the RFID tag to the EM18 reader module it reads the 12
-digits code from the tag.
+  digits code from the tag.
 • After scanning the card the attendance is displayed in LCD and the
-entering time and date is stored.
+  entering time and date is stored.
 
 
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/dee7200c-e5de-4e6e-8f83-e19a3b207b8a)
 
 
-RESULTS
+RESULTS:
+
 Each RFID card has 12- digit unique code. So when we scan the card we get the output in serial window as shown below. Copy this code and register it with the user's name in the code.
+
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/1122d644-f537-4b1e-868a-052ff34d98a5)
 
-LCD Results :
+
+LCD Results:
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/97e91471-b91a-4c6a-9d57-822817a8582b)
 
-ThingSpeak results :
+
+ThingSpeak results:
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/a51d3712-57dd-4097-a764-8063cec65cae)
+
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/4b839fa2-5a14-4bda-98e2-322f2113d8c9)
 
 
-Twitter Result :
+Twitter Result:
+
+
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/e1f3cd71-479e-440b-8418-b079ef1098de)
 
 
-CONCLUSION
+CONCLUSION:
+
 The IoT-based attendance monitoring system is very successful and reliable. It can be turned into an efficient and error-free attendance management system for schools, colleges, and other organizations. In our project, we have used RFID sensor. Each user will be provided with RFID tags which contains 12-digit unique code. Only if the user is present on that particular date and within time, the attendance will be considered. Once the RFID tag is scanned by the user the entry time, date, month will be recorded. We have used ThingSpeak cloud platform which is used to collect the data and store it in the cloud with advanced data analysis. Every time a user scans the card a tweet is sent. This system is easy to use and very convenient, making it a great choice for any organization. Thus, we have completed our project successfully.
 
-FUTURE SCOPE
+FUTURE SCOPE:
+
 The Internet of Things (IoT) is a growing technology that is being used more and more around the world. It allows us to have a more in-depth understanding of other cloud-based applications, as well as to develop enhanced solutions using technologies such as touch less sensing devices. The system can be improved by using face recognition technology to help calculate attendance percentages.
 
 
