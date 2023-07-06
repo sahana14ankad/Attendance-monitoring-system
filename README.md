@@ -11,14 +11,16 @@ MOTIVATION:
 
 We decided to make an attendance monitoring system to provide an efficient and accurate way to track and manage student attendance. The system can help teachers and administrators quickly identify which students are absent, late, or present in class, and can provide valuable information about student attendance patterns over time. Additionally, the system can generate reports that can be used to identify students who need additional support or intervention, and can provide administrators with valuable data for making decisions about school policies and procedures.
 
-OBJECTIVES
-The purpose of the attendance monitoring software is to reduce the time
-that is consumed when attendance is taken manually.
-Weekly and monthly attendance reports for the employee are produced.
-When we scan RFID tag count of visitors and their name will be displayed on LCD.
-At the same time, entry date , time and other details will be recorded in ThingSpeak cloud and tweet will be sent.
+OBJECTIVES:
 
-COMPONENTS REQUIRED
+1. The purpose of the attendance monitoring software is to reduce the time
+   that is consumed when attendance is taken manually.
+2. Weekly and monthly attendance reports for the employee are produced.
+3. When we scan RFID tag count of visitors and their name will be displayed on LCD.
+4. At the same time, entry date , time and other details will be recorded in ThingSpeak cloud and tweet will be sent.
+
+COMPONENTS REQUIRED:
+
 EM18 RFID Reader Module
 RFID Cards
 NodeMCU-ESP8266
@@ -27,9 +29,9 @@ I2C module for LCD
 Breadboard
 Connecting Wires
 
-1. NodeMCU-ESP8266 :-
-NodeMCU firmware is a powerful platform for IoT applications. It contains
-all the functionality of the ESP8266, allowing the user to connect to her Wi-Fi
+1. NodeMCU-ESP8266:
+   
+NodeMCU firmware is a powerful platform for IoT applications. It contains all the functionality of the ESP8266, allowing the user to connect to her Wi-Fi
 network, interact with the Internet, create and store data, and build powerful
 applications. Based on a lightweight version of the Lua scripting language, it
 is designed for developers familiar with the Arduino platform. The firmware
@@ -44,7 +46,7 @@ all skill levels.
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/185a9917-4184-41ee-b529-8b745839828c)
 
 
-2. EM18 Reader Module :-
+3. EM18 Reader Module :-
 
 Radio waves are used by Radio frequency Identification (RFID), a wireless
 identification technique, to detect the presence of RFID tags. RFID technology is used to identify the presence of persons, objects, etc., just like a bar
