@@ -30,7 +30,7 @@ COMPONENTS REQUIRED:
 7. Connecting Wires
 
 
-   NodeMCU-ESP8266:
+a) NodeMCU-ESP8266:
    
 NodeMCU firmware is a powerful platform for IoT applications. It contains all the functionality of the ESP8266, allowing the user to connect to her Wi-Fi
 network, interact with the Internet, create and store data, and build powerful
@@ -49,7 +49,7 @@ all skill levels.
 ![image](https://github.com/sahana14ankad/Attendance-monitoring-system/assets/136897959/185a9917-4184-41ee-b529-8b745839828c)
 
 
-EM18 Reader Module:
+b) EM18 Reader Module:
 
 Radio waves are used by Radio frequency Identification (RFID), a wireless
 identification technique, to detect the presence of RFID tags. RFID technology is used to identify the presence of persons, objects, etc., just like a bar
@@ -76,7 +76,7 @@ Specifications:
 
 
 
-16x2 LCD Display with I2C Protocol :
+c) 16x2 LCD Display with I2C Protocol :
 
 Specifications :
 
