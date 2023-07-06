@@ -1,11 +1,14 @@
 # Attendance-monitoring-system
-ABSTRACT
+ABSTRACT:
+
 Attendance Monitoring System deals with the maintenance of user’s attendance details . Here we have used RFID sensor . Each user will be provided with RFID tags which contains 12-digit unique code .Only if the user is present on that particular date and within time, the attendance will be considered . Once the RFID tag is scanned by the user the entry time, date, month will be recorded. We have used ThingSpeak cloud platform which is used to collect the data and store it in the cloud with advanced data analysis . Every time a user scans the card a tweet is sent.
 
-INTRODUCTION
+INTRODUCTION:
+
 Software called the Attendance Monitoring System was created to track daily attendance in schools, universities, institutes, and businesses. It makes it easier to get a specific user’s attendance data every day . This approach aids in assessing attendance eligibility standards. The intention behind creating an attendance monitoring system is to automate the manual process of taking attendance. The software’s ability to automatically generate reports at the session’s end or in between sessions is another reason for its development.
 
-MOTIVATION
+MOTIVATION:
+
 We decided to make an attendance monitoring system to provide an efficient and accurate way to track and manage student attendance. The system can help teachers and administrators quickly identify which students are absent, late, or present in class, and can provide valuable information about student attendance patterns over time. Additionally, the system can generate reports that can be used to identify students who need additional support or intervention, and can provide administrators with valuable data for making decisions about school policies and procedures.
 
 OBJECTIVES
